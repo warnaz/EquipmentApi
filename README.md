@@ -58,7 +58,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-Add settings for `REST_FRIENDSHIP` to your project `settings.py`
+Add settings for `REST_FRAMEWORK` to your project `settings.py`
 ```
 REST_FRAMEWORK = {
     # Token Auth
@@ -83,8 +83,8 @@ REST_FRAMEWORK = {
 
 ```
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Friend Project API',
-    'DESCRIPTION': 'Friend system Api',
+    'TITLE': 'Equipment API',
+    'DESCRIPTION': 'Equipment system Api',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
     # OTHER SETTINGS
